@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03955E7726E0CDF9006D1218 /* FootballMatchTimer WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 03955E7626E0CDF9006D1218 /* FootballMatchTimer WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		03955E7D26E0CDF9006D1218 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03955E7B26E0CDF9006D1218 /* Interface.storyboard */; };
+		03955E7F26E0CDFC006D1218 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03955E7E26E0CDFC006D1218 /* Assets.xcassets */; };
+		03955E8626E0CDFD006D1218 /* FootballMatchTimer WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 03955E8526E0CDFD006D1218 /* FootballMatchTimer WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		03955E8B26E0CDFD006D1218 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03955E8A26E0CDFD006D1218 /* InterfaceController.swift */; };
+		03955E8D26E0CDFD006D1218 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03955E8C26E0CDFD006D1218 /* ExtensionDelegate.swift */; };
+		03955E8F26E0CDFD006D1218 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03955E8E26E0CDFD006D1218 /* NotificationController.swift */; };
+		03955E9126E0CDFD006D1218 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03955E9026E0CDFD006D1218 /* ComplicationController.swift */; };
+		03955E9326E0CDFE006D1218 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03955E9226E0CDFE006D1218 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03955E7826E0CDF9006D1218 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03955E6C26E0CDF9006D1218 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03955E7526E0CDF9006D1218;
+			remoteInfo = "FootballMatchTimer WatchKit App";
+		};
+		03955E8726E0CDFD006D1218 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03955E6C26E0CDF9006D1218 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03955E8426E0CDFD006D1218;
+			remoteInfo = "FootballMatchTimer WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		03955E9B26E0CDFE006D1218 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				03955E8626E0CDFD006D1218 /* FootballMatchTimer WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03955E9F26E0CDFE006D1218 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				03955E7726E0CDF9006D1218 /* FootballMatchTimer WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		03955E7226E0CDF9006D1218 /* FootballMatchTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FootballMatchTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03955E7626E0CDF9006D1218 /* FootballMatchTimer WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FootballMatchTimer WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03955E7C26E0CDF9006D1218 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		03955E7E26E0CDFC006D1218 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03955E8026E0CDFC006D1218 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03955E8526E0CDFD006D1218 /* FootballMatchTimer WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "FootballMatchTimer WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03955E8A26E0CDFD006D1218 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		03955E8C26E0CDFD006D1218 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		03955E8E26E0CDFD006D1218 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		03955E9026E0CDFD006D1218 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		03955E9226E0CDFE006D1218 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03955E9426E0CDFE006D1218 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03955E9526E0CDFE006D1218 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03955E8226E0CDFD006D1218 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03955E6B26E0CDF9006D1218 = {
+			isa = PBXGroup;
+			children = (
+				03955E7A26E0CDF9006D1218 /* FootballMatchTimer WatchKit App */,
+				03955E8926E0CDFD006D1218 /* FootballMatchTimer WatchKit Extension */,
+				03955E7326E0CDF9006D1218 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03955E7326E0CDF9006D1218 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03955E7226E0CDF9006D1218 /* FootballMatchTimer.app */,
+				03955E7626E0CDF9006D1218 /* FootballMatchTimer WatchKit App.app */,
+				03955E8526E0CDFD006D1218 /* FootballMatchTimer WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03955E7A26E0CDF9006D1218 /* FootballMatchTimer WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				03955E7B26E0CDF9006D1218 /* Interface.storyboard */,
+				03955E7E26E0CDFC006D1218 /* Assets.xcassets */,
+				03955E8026E0CDFC006D1218 /* Info.plist */,
+			);
+			path = "FootballMatchTimer WatchKit App";
+			sourceTree = "<group>";
+		};
+		03955E8926E0CDFD006D1218 /* FootballMatchTimer WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				03955E8A26E0CDFD006D1218 /* InterfaceController.swift */,
+				03955E8C26E0CDFD006D1218 /* ExtensionDelegate.swift */,
+				03955E8E26E0CDFD006D1218 /* NotificationController.swift */,
+				03955E9026E0CDFD006D1218 /* ComplicationController.swift */,
+				03955E9226E0CDFE006D1218 /* Assets.xcassets */,
+				03955E9426E0CDFE006D1218 /* Info.plist */,
+				03955E9526E0CDFE006D1218 /* PushNotificationPayload.apns */,
+			);
+			path = "FootballMatchTimer WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03955E7126E0CDF9006D1218 /* FootballMatchTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03955EA026E0CDFE006D1218 /* Build configuration list for PBXNativeTarget "FootballMatchTimer" */;
+			buildPhases = (
+				03955E7026E0CDF9006D1218 /* Resources */,
+				03955E9F26E0CDFE006D1218 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03955E7926E0CDF9006D1218 /* PBXTargetDependency */,
+			);
+			name = FootballMatchTimer;
+			productName = FootballMatchTimer;
+			productReference = 03955E7226E0CDF9006D1218 /* FootballMatchTimer.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		03955E7526E0CDF9006D1218 /* FootballMatchTimer WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03955E9C26E0CDFE006D1218 /* Build configuration list for PBXNativeTarget "FootballMatchTimer WatchKit App" */;
+			buildPhases = (
+				03955E7426E0CDF9006D1218 /* Resources */,
+				03955E9B26E0CDFE006D1218 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03955E8826E0CDFD006D1218 /* PBXTargetDependency */,
+			);
+			name = "FootballMatchTimer WatchKit App";
+			productName = "FootballMatchTimer WatchKit App";
+			productReference = 03955E7626E0CDF9006D1218 /* FootballMatchTimer WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		03955E8426E0CDFD006D1218 /* FootballMatchTimer WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03955E9826E0CDFE006D1218 /* Build configuration list for PBXNativeTarget "FootballMatchTimer WatchKit Extension" */;
+			buildPhases = (
+				03955E8126E0CDFD006D1218 /* Sources */,
+				03955E8226E0CDFD006D1218 /* Frameworks */,
+				03955E8326E0CDFD006D1218 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FootballMatchTimer WatchKit Extension";
+			productName = "FootballMatchTimer WatchKit Extension";
+			productReference = 03955E8526E0CDFD006D1218 /* FootballMatchTimer WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03955E6C26E0CDF9006D1218 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					03955E7126E0CDF9006D1218 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					03955E7526E0CDF9006D1218 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					03955E8426E0CDFD006D1218 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 03955E6F26E0CDF9006D1218 /* Build configuration list for PBXProject "FootballMatchTimer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03955E6B26E0CDF9006D1218;
+			productRefGroup = 03955E7326E0CDF9006D1218 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03955E7126E0CDF9006D1218 /* FootballMatchTimer */,
+				03955E7526E0CDF9006D1218 /* FootballMatchTimer WatchKit App */,
+				03955E8426E0CDFD006D1218 /* FootballMatchTimer WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03955E7026E0CDF9006D1218 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03955E7426E0CDF9006D1218 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03955E7F26E0CDFC006D1218 /* Assets.xcassets in Resources */,
+				03955E7D26E0CDF9006D1218 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03955E8326E0CDFD006D1218 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03955E9326E0CDFE006D1218 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03955E8126E0CDFD006D1218 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03955E8F26E0CDFD006D1218 /* NotificationController.swift in Sources */,
+				03955E9126E0CDFD006D1218 /* ComplicationController.swift in Sources */,
+				03955E8D26E0CDFD006D1218 /* ExtensionDelegate.swift in Sources */,
+				03955E8B26E0CDFD006D1218 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03955E7926E0CDF9006D1218 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03955E7526E0CDF9006D1218 /* FootballMatchTimer WatchKit App */;
+			targetProxy = 03955E7826E0CDF9006D1218 /* PBXContainerItemProxy */;
+		};
+		03955E8826E0CDFD006D1218 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03955E8426E0CDFD006D1218 /* FootballMatchTimer WatchKit Extension */;
+			targetProxy = 03955E8726E0CDFD006D1218 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03955E7B26E0CDF9006D1218 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03955E7C26E0CDF9006D1218 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03955E9626E0CDFE006D1218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03955E9726E0CDFE006D1218 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03955E9926E0CDFE006D1218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "FootballMatchTimer WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wynnesoft.FootballMatchTimer.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		03955E9A26E0CDFE006D1218 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "FootballMatchTimer WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wynnesoft.FootballMatchTimer.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		03955E9D26E0CDFE006D1218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = FootballMatchTimer_WatchKit_Extension;
+				INFOPLIST_FILE = "FootballMatchTimer WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wynnesoft.FootballMatchTimer.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		03955E9E26E0CDFE006D1218 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = FootballMatchTimer_WatchKit_Extension;
+				INFOPLIST_FILE = "FootballMatchTimer WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wynnesoft.FootballMatchTimer.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		03955EA126E0CDFE006D1218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wynnesoft.FootballMatchTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		03955EA226E0CDFE006D1218 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wynnesoft.FootballMatchTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03955E6F26E0CDF9006D1218 /* Build configuration list for PBXProject "FootballMatchTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03955E9626E0CDFE006D1218 /* Debug */,
+				03955E9726E0CDFE006D1218 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03955E9826E0CDFE006D1218 /* Build configuration list for PBXNativeTarget "FootballMatchTimer WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03955E9926E0CDFE006D1218 /* Debug */,
+				03955E9A26E0CDFE006D1218 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03955E9C26E0CDFE006D1218 /* Build configuration list for PBXNativeTarget "FootballMatchTimer WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03955E9D26E0CDFE006D1218 /* Debug */,
+				03955E9E26E0CDFE006D1218 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03955EA026E0CDFE006D1218 /* Build configuration list for PBXNativeTarget "FootballMatchTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03955EA126E0CDFE006D1218 /* Debug */,
+				03955EA226E0CDFE006D1218 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03955E6C26E0CDF9006D1218 /* Project object */;
+}
